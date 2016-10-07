@@ -30,12 +30,12 @@
 */
 
 #include "RandOp2d.h"
-#include "../GridFunctionNd/UCLAQ_GridFunction2d.h"
+#include "../GridFunctionNd/SCC_GridFunction2d.h"
 
-#ifndef _UCLAQ_RandOpDirichlet2d_
-#define _UCLAQ_RandOpDirichlet2d_
+#ifndef _SCC_RandOpDirichlet2d_
+#define _SCC_RandOpDirichlet2d_
 
-namespace UCLAQ
+namespace SCC
 {
 class RandOpDirichlet2d : RandOp2d
 {
