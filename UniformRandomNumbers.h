@@ -32,6 +32,17 @@ public:
 	distribution.param(distParams);
 	}
 
+    void initialize(double a, double b)
+	{
+	seed = _DEFAULT_RANDOM_SEED_;
+	randomGenerator.seed(seed);
+
+	// Initialize the distribution to be uniform in the interval [a,b]
+
+	uniform_real_distribution<double>::param_type distParams(a,b);
+	distribution.param(distParams);
+	}
+
 	void resetSeed(int seed)
     {
     this->seed = seed;

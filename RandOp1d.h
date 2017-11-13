@@ -36,15 +36,15 @@
 #include <random>
 using namespace std;
 
-#include "../DoubleVectorNd/UCLAQ_DoubleVector1d.h"
-#include "../GridFunctionNd/UCLAQ_GridFunction1d.h"
+#include "../DoubleVectorNd/SCC_DoubleVector1d.h"
+#include "../GridFunctionNd/SCC_GridFunction1d.h"
 
-#ifndef _UCLAQ_RandOp1d_
-#define _UCLAQ_RandOp1d_
+#ifndef _SCC_RandOp1d_
+#define _SCC_RandOp1d_
 
 #define RandomGridFunction1dOp_DEFAULT_SEED 3141592
 
-namespace UCLAQ
+namespace SCC
 {
 class RandOp1d
 {

@@ -30,12 +30,12 @@
 */
 
 #include "RandOp1d.h"
-#include "../GridFunctionNd/UCLAQ_GridFunction1d.h"
+#include "../GridFunctionNd/SCC_GridFunction1d.h"
 
-#ifndef _UCLAQ_RandOpDirichlet1d_
-#define _UCLAQ_RandOpDirichlet1d_
+#ifndef _SCC_RandOpDirichlet1d_
+#define _SCC_RandOpDirichlet1d_
 
-namespace UCLAQ
+namespace SCC
 {
 class RandOpDirichlet1d : RandOp1d
 {
