@@ -43,12 +43,12 @@
 #include <random>
 using namespace std;
 
-#ifndef _UCLAQ_RandVectorOp_
-#define _UCLAQ_RandVectorOp_
+#ifndef _SCC_RandVectorOp_
+#define _SCC_RandVectorOp_
 
 #define RandVectorOp_DEFAULT_SEED 3141592
 
-namespace UCLAQ
+namespace SCC
 {
 template <class Vtype> class RandVectorOp
 {
