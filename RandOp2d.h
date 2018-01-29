@@ -35,15 +35,15 @@
 #include <random>
 using namespace std;
 
-#include "../GridFunctionNd/UCLAQ_GridFunction2d.h"
-#include "../DoubleVectorNd/UCLAQ_DoubleVector2d.h"
+#include "../GridFunctionNd/SCC_GridFunction2d.h"
+#include "../DoubleVectorNd/SCC_DoubleVector2d.h"
 
-#ifndef _UCLAQ_RandOp2d_
-#define _UCLAQ_RandOp2d_
+#ifndef _SCC_RandOp2d_
+#define _SCC_RandOp2d_
 
 #define RandomGridFunction2dOp_DEFAULT_SEED 3141592
 
-namespace UCLAQ
+namespace SCC
 {
 class RandOp2d
 {
