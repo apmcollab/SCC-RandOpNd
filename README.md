@@ -10,7 +10,7 @@ C++11
 
 ### Versioning
 
-Release : 17.11.13
+Release : 18.01.28
 
 ### Authors
 
@@ -21,6 +21,7 @@ Chris Anderson
 GPLv3  For a copy of the GNU General Public License see <http://www.gnu.org/licenses/>.
 
 ### Acknowledgements
+
 
 
 
