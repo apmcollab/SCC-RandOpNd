@@ -34,7 +34,6 @@
 */
 
 #include <random>
-using namespace std;
 
 #include "../DoubleVectorNd/SCC_DoubleVector1d.h"
 #include "../GridFunctionNd/SCC_GridFunction1d.h"
@@ -59,7 +58,7 @@ class RandOp1d
 
 	    // Initialize the distribution to be uniform in the interval [-1,1]
 
-	    uniform_real_distribution<double>::param_type distParams(-1.0,1.0);
+	    std::uniform_real_distribution<double>::param_type distParams(-1.0,1.0);
 	    distribution.param(distParams);
     }
 
@@ -99,8 +98,8 @@ class RandOp1d
     }
 
     int                                            seed;
-    mt19937_64                          randomGenerator;
-	uniform_real_distribution<double>      distribution;
+    std::mt19937_64                          randomGenerator;
+	std::uniform_real_distribution<double>      distribution;
 };
  
 }
