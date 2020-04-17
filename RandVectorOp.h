@@ -41,7 +41,6 @@
 #############################################################################
 */
 #include <random>
-using namespace std;
 
 #ifndef _SCC_RandVectorOp_
 #define _SCC_RandVectorOp_
@@ -92,9 +91,9 @@ template <class Vtype> class RandVectorOp
         }
     }
 
-    int                                            seed;
-    mt19937_64                          randomGenerator;
-	uniform_real_distribution<double>      distribution;
+    int                                                seed;
+    std::mt19937_64                          randomGenerator;
+	std::uniform_real_distribution<double>      distribution;
 };
 
 #undef RandVectorOp_DEFAULT_SEED  
