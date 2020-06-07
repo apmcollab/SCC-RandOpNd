@@ -37,8 +37,8 @@
 #include "../GridFunctionNd/SCC_GridFunction2d.h"
 #include "../DoubleVectorNd/SCC_DoubleVector2d.h"
 
-#ifndef _SCC_RandOp2d_
-#define _SCC_RandOp2d_
+#ifndef SCC_RandOp2d_
+#define SCC_RandOp2d_
 
 #define RandomGridFunction2dOp_DEFAULT_SEED 3141592
 

@@ -32,8 +32,8 @@
 #include "RandOp1d.h"
 #include "../GridFunctionNd/SCC_GridFunction1d.h"
 
-#ifndef _SCC_RandOpDirichlet1d_
-#define _SCC_RandOpDirichlet1d_
+#ifndef SCC_RandOpDirichlet1d_
+#define SCC_RandOpDirichlet1d_
 
 namespace SCC
 {

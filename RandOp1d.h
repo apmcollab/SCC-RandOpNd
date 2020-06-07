@@ -38,8 +38,8 @@
 #include "../DoubleVectorNd/SCC_DoubleVector1d.h"
 #include "../GridFunctionNd/SCC_GridFunction1d.h"
 
-#ifndef _SCC_RandOp1d_
-#define _SCC_RandOp1d_
+#ifndef SCC_RandOp1d_
+#define SCC_RandOp1d_
 
 #define RandomGridFunction1dOp_DEFAULT_SEED 3141592
 

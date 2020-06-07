@@ -32,8 +32,8 @@
 #include "RandOp2d.h"
 #include "../GridFunctionNd/SCC_GridFunction2d.h"
 
-#ifndef _SCC_RandOpDirichlet2d_
-#define _SCC_RandOpDirichlet2d_
+#ifndef SCC_RandOpDirichlet2d_
+#define SCC_RandOpDirichlet2d_
 
 namespace SCC
 {

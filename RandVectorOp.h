@@ -42,8 +42,8 @@
 */
 #include <random>
 
-#ifndef _SCC_RandVectorOp_
-#define _SCC_RandVectorOp_
+#ifndef SCC_RandVectorOp_
+#define SCC_RandVectorOp_
 
 #define RandVectorOp_DEFAULT_SEED 3141592
 
