@@ -62,7 +62,7 @@ template <class Vtype> class RandVectorOp
 
 	    // Initialize the distribution to be uniform in the interval [-1,1]
 
-	    uniform_real_distribution<double>::param_type distParams(-1.0,1.0);
+	    std::uniform_real_distribution<double>::param_type distParams(-1.0,1.0);
 	    distribution.param(distParams);
     }
 
