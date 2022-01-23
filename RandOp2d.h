@@ -34,8 +34,8 @@
 */
 #include <random>
 
-#include "../GridFunctionNd/SCC_GridFunction2d.h"
-#include "../DoubleVectorNd/SCC_DoubleVector2d.h"
+#include "GridFunctionNd/SCC_GridFunction2d.h"
+#include "DoubleVectorNd/SCC_DoubleVector2d.h"
 
 #ifndef SCC_RandOp2d_
 #define SCC_RandOp2d_

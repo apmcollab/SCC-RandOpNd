@@ -30,14 +30,14 @@
 */
 
 #include "RandOp1d.h"
-#include "../GridFunctionNd/SCC_GridFunction1d.h"
+#include "GridFunctionNd/SCC_GridFunction1d.h"
 
 #ifndef SCC_RandOpDirichlet1d_
 #define SCC_RandOpDirichlet1d_
 
 namespace SCC
 {
-class RandOpDirichlet1d : RandOp1d
+class RandOpDirichlet1d : public RandOp1d
 {
     public :
 

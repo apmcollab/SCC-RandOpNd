@@ -1,8 +1,8 @@
 #include <random>
 #include <ctime>
 
-#ifndef _UniformRandomNumbers_
-#define _UniformRandomNumbers_
+#ifndef UNIFORM_RANDOM_NUMBERS_  
+#define UNIFORM_RANDOM_NUMBERS_  
 
 #define _DEFAULT_RANDOM_SEED_ 3141592
 class UniformRandomNumbers

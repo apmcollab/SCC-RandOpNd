@@ -35,8 +35,8 @@
 
 #include <random>
 
-#include "../DoubleVectorNd/SCC_DoubleVector1d.h"
-#include "../GridFunctionNd/SCC_GridFunction1d.h"
+#include "DoubleVectorNd/SCC_DoubleVector1d.h"
+#include "GridFunctionNd/SCC_GridFunction1d.h"
 
 #ifndef SCC_RandOp1d_
 #define SCC_RandOp1d_
